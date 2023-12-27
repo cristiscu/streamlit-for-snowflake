@@ -1,0 +1,13 @@
+manifest_version: 1
+version:
+  name: Hierarchical Data Viewer
+  label: "v1_0"
+  comment: "Display tabular hierarchical data in alternative formats."
+
+artifacts:
+  readme: readme.md
+  setup_script: script.sql
+
+configuration:
+  log_level: debug
+  trace_level: always

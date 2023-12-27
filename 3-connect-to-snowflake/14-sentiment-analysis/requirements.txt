@@ -1,0 +1,11 @@
+numpy
+pandas
+cachetools
+joblib
+scikit-learn
+nltk
+isort
+black
+snowflake-snowpark-python
+streamlit
+streamlit-option-menu

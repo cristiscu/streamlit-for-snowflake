@@ -1,0 +1,18 @@
+manifest_version: 1
+version:
+  name: Hierarchical Metadata Viewer
+  label: "v1_0"
+  comment: "Explore Object Dependencies and Data Lineage"
+
+artifacts:
+  readme: readme.md
+  setup_script: script.sql
+
+configuration:
+  log_level: debug
+  trace_level: always
+
+privileges:
+  - IMPORTED PRIVILEGES ON SNOWFLAKE DB:
+      description: "For accessing object dependencies and data lineage."
+
