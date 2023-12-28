@@ -1,0 +1,7 @@
+pandas
+streamlit
+plotly
+pyvis
+scipy
+networkx
+snowflake-snowpark-python

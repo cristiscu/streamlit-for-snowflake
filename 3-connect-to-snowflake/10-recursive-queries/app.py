@@ -16,7 +16,8 @@ with st.sidebar:
     tableName = st.text_input("Full table/view name:")
     hasTable = tableName is not None and len(tableName) > 0
     if hasTable:
-        df_orig = utils.getDataFrame(f"select * from {tableName}")
+        session = utils.getSession()
+        df_orig = utils.getDataFrame(session, f"select * from {tableName}")
     else:
         filename = utils.getFullPath("data/employees.csv")
         uploaded_file = st.file_uploader(
@@ -30,11 +31,29 @@ with st.sidebar:
     parent = st.selectbox("Parent Column Name", cols, index=1)
     df = df_orig[[child, parent]]
 
-tabSource, tabFormat, tabGraph, tabChart, tabAnim = st.tabs(
-    ["Source", "Format", "Graph", "Chart", "Animated"])
+tabSource, tabPath, tabFormat, tabGraph, tabChart, tabAnim = st.tabs(
+    ["Source", "Path", "Format", "Graph", "Chart", "Animated"])
 
 with tabSource:
     st.dataframe(df_orig, use_container_width=True)
+
+with tabPath:
+    if not hasTable:
+        st.warning("Select a table/view")
+    else:
+        child_index = cols.index(child) + 1
+        parent_index = cols.index(parent) + 1
+        query = f"""
+select repeat('  ', level - 1) || ${child_index} as name,
+ltrim(sys_connect_by_path(${child_index}, '.'), '.') as path
+from {tableName}
+start with ${parent_index} is null
+connect by prior ${child_index} = ${parent_index}
+order by path;
+"""
+        session = utils.getSession()
+        df_path = utils.getDataFrame(session, query)
+        st.dataframe(df_path, use_container_width=True)
 
 # show in another data format
 with tabFormat:
@@ -61,8 +80,7 @@ with tabFormat:
 with tabGraph:
     graph = graphs.getEdges(df)
     url = graphs.getUrl(graph)
-    try: st.link_button("Visualize Online", url)
-    except: pass
+    st.link_button("Visualize Online", url)
     st.graphviz_chart(graph)
 
 # show as Plotly chart

@@ -1,6 +1,8 @@
 # Deploy the Hierarchical Data Viewer in Snowflake as a Streamlit App
 
-D3 animated charts are not supported, as well as the Streamlit link button.
+Has new *isStreamlitApp* and *getStreamlitAppSession* functions in the *utils.py* module. D3 animated charts are not supported, as well as the Streamlit link button.
+
+## Files
 
 * **data/*.csv** - CSV test data, to be uploaded in Snowflake tables.
 * **app.py** - Python entry code, to deploy as a Streamlit App in Snowflake.

@@ -22,8 +22,8 @@ def getSession():
     return Session.builder.configs(pars).create()
 
 @st.cache_data(show_spinner="Running a Snowflake query...")
-def getDataFrame(query):
-    rows = getSession().sql(query).collect()
+def getDataFrame(_session, query):
+    rows = _session.sql(query).collect()
     return pd.DataFrame(rows).convert_dtypes()
 
 @st.cache_data(show_spinner="Loading the CSV file...")

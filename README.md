@@ -1,6 +1,6 @@
 # Streamlit for Snowflake
 
-All demo code for the Udemy course **"Streamlit for Snowflake Masterclass (2024 Edition)"**.
+All demo code for my Udemy course **"Streamlit for Snowflake Masterclass (2024 Edition)"**.
 
 ## Demo Project Setup
 
