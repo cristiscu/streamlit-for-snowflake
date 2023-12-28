@@ -1,9 +1,7 @@
 # ML Object Detection with a CNN Data Science Streamlit App
 
-Turn Python Scripts into Beautiful ML Tools - by Adrien Treuille
-https://medium.com/towards-data-science/coding-ml-tools-like-you-code-ml-models-ddba3357eace
+From [**Turn Python Scripts into Beautiful ML Tools**](https://medium.com/towards-data-science/coding-ml-tools-like-you-code-ml-models-ddba3357eace) blog post, by *Adrien Treuille*, co-founder of Streamlit and current Head of Streamlit at Snowflake.
 
-Streamlit Demo: The Udacity Self-driving Car Image Browser
-https://github.com/streamlit/demo-self-driving/tree/master
+The demo is also open-sourced in GitHub as [**Streamlit Demo: The Udacity Self-driving Car Image Browser**](https://github.com/streamlit/demo-self-driving/tree/master)
 
-requirements.txt --> CV lib
+The *OpenCV* library is required as well for this experiment (see the **requirements.txt** file). The demo will download two remote files, but always exclude **yolov3.weights** from the GitHub repository, as it is too large.
