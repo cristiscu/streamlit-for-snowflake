@@ -1,3 +1,3 @@
-# Setup Instructions
+# Create an Entity-Relationship Diagram Viewer with Streamlit
 
 ...

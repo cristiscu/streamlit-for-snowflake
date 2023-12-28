@@ -1,3 +1,3 @@
-# Setup Instructions
+# Upload Data into a New Snowflake Account through the Web UI
 
 ...

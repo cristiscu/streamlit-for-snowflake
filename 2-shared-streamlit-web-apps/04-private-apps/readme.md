@@ -1,3 +1,3 @@
-# Setup Instructions
+# Make App Private and Protect Public App Access
 
 ...

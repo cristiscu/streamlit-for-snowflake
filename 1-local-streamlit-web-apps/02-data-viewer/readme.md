@@ -1,3 +1,3 @@
-# Setup Instructions
+# Build a Simple Hierarchical Data Viewer in Python
 
 ...

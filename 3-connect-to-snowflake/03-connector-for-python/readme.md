@@ -1,3 +1,3 @@
-# Setup Instructions
+# Connect to Snowflake with the Connector for Python
 
 ...

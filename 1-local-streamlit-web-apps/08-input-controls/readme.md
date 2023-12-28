@@ -1,3 +1,3 @@
-# Setup Instructions
+# Use Streamlit Input Controls
 
 ...

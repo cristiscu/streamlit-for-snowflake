@@ -1,3 +1,3 @@
-# Setup Instructions
+# Integrate Snowflake with ChatGPT
 
 ...

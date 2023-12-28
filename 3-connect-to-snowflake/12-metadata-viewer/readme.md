@@ -1,3 +1,3 @@
-# Setup Instructions
+# Create a Hierarchical Metadata Viewer as a Streamlit Multi-Page App
 
 ...

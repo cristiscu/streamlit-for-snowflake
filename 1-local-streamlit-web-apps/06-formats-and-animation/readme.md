@@ -1,3 +1,3 @@
-# Setup Instructions
+# Add Hierarchical Formats and Animation
 
 ...

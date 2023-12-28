@@ -1,3 +1,3 @@
-# Setup Instructions
+# Create a NLP Sentiment Analysis App with the IMDB Reviews
 
 ...

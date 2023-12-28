@@ -1,0 +1,8 @@
+pandas
+plotly
+pyvis
+scipy
+networkx
+streamlit
+snowflake-connector-python
+snowflake-snowpark-python==1.10.0

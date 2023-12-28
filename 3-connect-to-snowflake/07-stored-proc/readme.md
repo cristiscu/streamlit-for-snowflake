@@ -1,3 +1,3 @@
-# Setup Instructions
+# Push Python Code as a Stored Procedure with Snowpark
 
 ...

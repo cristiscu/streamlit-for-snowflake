@@ -1,3 +1,3 @@
-# Setup Instructions
+# Hierarchical Data Charts in Streamlit with Plotly
 
 ...

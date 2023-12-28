@@ -1,3 +1,3 @@
-# Setup Instructions
+# Enhance the Hierarchical Data Viewer with Recursive Queries
 
 ...

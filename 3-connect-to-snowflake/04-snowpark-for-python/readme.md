@@ -1,3 +1,3 @@
-# Setup Instructions
+# Connect to Snowflake with Snowpark for Python
 
 ...

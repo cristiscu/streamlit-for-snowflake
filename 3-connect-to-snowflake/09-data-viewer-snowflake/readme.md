@@ -1,3 +1,3 @@
-# Setup Instructions
+# Connect the Hierarchical Data Viewer to Snowflake
 
 ...

@@ -1,3 +1,3 @@
-# Setup Instructions
+# Use Data Caching with a Generated Session ID
 
 ...

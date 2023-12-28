@@ -1,3 +1,3 @@
-# Setup Instructions
+# Build a Complex Query with the Snowpark DataFrame API
 
 ...

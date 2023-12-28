@@ -1,3 +1,3 @@
-# Setup Instructions
+# Complete the Hierarchical Data Viewer
 
 ...

@@ -1,3 +1,3 @@
-# Setup Instructions
+# Connect to Snowflake with Streamlit Connector in Multi-Page App
 
 ...

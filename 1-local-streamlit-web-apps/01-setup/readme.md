@@ -1,3 +1,3 @@
-# Setup Instructions
+# Project Setup Instructions
 
 ...
