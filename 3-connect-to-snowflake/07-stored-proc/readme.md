@@ -14,3 +14,7 @@ print(sals)
 ```
 
 The **stored-proc.py** file encapsulates all fragmented queries from the **raw.py** file, and executes the whole code remote, in the Snowflake virtual warehouse, closer to the data.
+
+## Actions
+
+From the local subfolder, run from a Terminal window **`python raw.py`**, then  **`python stored-proc.py`**.

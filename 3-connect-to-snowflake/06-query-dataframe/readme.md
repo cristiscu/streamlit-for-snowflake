@@ -1,6 +1,6 @@
 # Build a Complex Query with the Snowpark DataFrame API
 
-Alternative to a more complex SQL query with a CTE (see the **cte.py** file) using the Snowpark DataFrame API (see the **data-frame.py** file).
+Alternative to a more complex SQL query with a CTE (see the **cte.py** file) using the [**Snowpark DataFrame API**](https://docs.snowflake.com/en/developer-guide/snowpark/python/working-with-dataframes) (see the **data-frame.py** file).
 
 The query we built:
 
@@ -18,3 +18,7 @@ select e.department, e.employee_name, e.salary,
   where job = 'MANAGER'
   order by department, employee_name;
 ```
+
+## Actions
+
+From the local subfolder, run from a Terminal window **`python cte.py`**, then  **`python data-frame.py`**.

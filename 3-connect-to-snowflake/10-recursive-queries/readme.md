@@ -8,7 +8,7 @@ Example of hard-coded generic query for hierarchical data:
 
 ```
 select repeat('  ', level - 1) || ${child_index} as name,
-ltrim(sys_connect_by_path(${child_index}, '.'), '.') as path
+  ltrim(sys_connect_by_path(${child_index}, '.'), '.') as path
 from {tableName}
 start with ${parent_index} is null
 connect by prior ${child_index} = ${parent_index}
@@ -16,3 +16,7 @@ order by path;
 ```
 
 Read more in my blog posts [**How to Query Hierarchical Data in Snowflake**](https://cristian-70480.medium.com/how-to-query-hierarchical-data-in-snowflake-f4ac77f692cb) and [**How to Easily Visualize Hierarchical Tabular Data**](https://medium.com/snowflake/how-to-easily-visualize-hierarchical-tabular-data-90f97e5e4168) about the recursive SQL queries.
+
+## Actions
+
+From the local subfolder, run in a Terminal window **`streamlit run app.py`**. Quit the local Streamlit web app session with CTRL+C.

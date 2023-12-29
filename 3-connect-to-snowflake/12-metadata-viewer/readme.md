@@ -14,3 +14,9 @@ Read more in my posts on the Snowflake Data Superheroes Medium blog:
 * **3-multi-page-old/app.py** - multi-page Streamlit app with a select box.
 * **4-multi-page/Main.py** - multi-page Streamlit app with separate files in a *pages* subfolder. It also uses a separate **utils.py** file to get the Snowpark session.
 * **requirements.txt** - external dependencies, for pip install.
+
+## Actions
+
+In separate SQL Worksheets in your Snowflake web UI, paste and run the two "create-scripts" and wait for the data to appear through the *Snowflake.Account_Usage* schema views.
+
+Switch to the three subfolders with different versions of the new application, and run in a Terminal window either **`streamlit run app.py`**, or **`streamlit run Main.py`** (for the new multi-page version). Quit each local Streamlit web app session with CTRL+C.

@@ -14,3 +14,9 @@ For ER diagrams with Snowflake, could also use [**DBeaver Community Edition**](h
 * **app.py** - calls **`show imported privileges`** to extract all PK-FK constraints for a selected database schema, at the table level.
 * **utils.py** - utilities to get and cache the local Snowpark session, the list of Snowflake database names, and their schemas.
 * **create-scripts** - folder with SQL scripts to create test Snowflake databases: *Chinook* and *Indian Reserves*.
+
+## Actions
+
+In separate SQL Worksheets in your Snowflake web UI, paste and run the two "create-scripts", to create two test databases with many PK-FK constraints.
+
+From the local subfolder, run in a Terminal window **`streamlit run app.py`**. Select the test databases with their PUBLIC schema. Quit the local Streamlit web app session with CTRL+C.
