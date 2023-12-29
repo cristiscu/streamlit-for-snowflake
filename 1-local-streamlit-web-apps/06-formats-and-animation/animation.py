@@ -61,6 +61,8 @@ def makeNetworkGraph(df):
         node["value"] = len(map[node["id"]])
 
     filename = "animated/network-graph.html"
+    try: os.remove(filename)
+    except OSError: pass
     data.show(filename)
     return os.path.abspath(filename)
 

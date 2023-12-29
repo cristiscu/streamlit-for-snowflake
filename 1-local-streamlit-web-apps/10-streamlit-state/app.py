@@ -2,7 +2,6 @@ import urllib.parse
 import pandas as pd
 import streamlit as st
 from io import StringIO
-import os
 
 def getGraph(df):
     edges = ""
