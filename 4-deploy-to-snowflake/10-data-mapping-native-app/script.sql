@@ -1,3 +1,4 @@
+-- consumer script, automatically triggered after an APPLICATION is created in the deploy script
 CREATE APPLICATION ROLE ip2location_role;
 
 -- create versioned schema

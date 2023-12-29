@@ -1,3 +1,4 @@
+-- to be deployed as a Streamlit App with: snowsql -c demo_conn -f deploy.sql
 use schema tests.public;
 
 create or replace stage streamlit_stage;

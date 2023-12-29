@@ -1,3 +1,4 @@
+-- to select and execute all from a SQL Worksheet from your Snowflake web UI
 CREATE OR REPLACE DATABASE FROSTY_SAMPLE;
 CREATE SCHEMA CYBERSYN_FINANCIAL;
 

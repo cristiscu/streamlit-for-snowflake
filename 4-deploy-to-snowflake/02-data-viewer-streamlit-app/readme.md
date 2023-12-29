@@ -12,3 +12,9 @@ Has new *isStreamlitApp* and *getStreamlitAppSession* functions in the *utils.py
 * **deploy.sql** - SQL script to deploy as a Streamlit App in Snowflake.
 * **animated/templates/*.html** - D3 animated chart templates.
 * **animated/*.html** - generated D3 chart files.
+
+## Actions
+
+From the local subfolder, run in a Terminal window **`streamlit run app.py`**. Quit the local Streamlit web app session with CTRL+C.
+
+To deploy it as a Streamlit App, run **`snowsql -c demo_conn -f deploy.sql`**. Check that there are no errors (i.e. no text in red on screen). Switch to the Snowflake web UI and run/edit the app there.

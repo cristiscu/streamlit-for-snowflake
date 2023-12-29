@@ -1,4 +1,4 @@
--- run from current folder with: snowsql -c demo_conn -f deploy.sql
+-- to be deployed as a Streamlit App with: snowsql -c demo_conn -f deploy.sql
 CREATE OR REPLACE DATABASE financial_streamlit;
 
 CREATE STAGE mystage;

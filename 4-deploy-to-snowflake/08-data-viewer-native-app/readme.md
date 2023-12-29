@@ -33,3 +33,11 @@ The setup files will upload the CSV file into a new Snowflake table, exposed to 
 * **modules/formats.py** - convert tabular hierarchical data to JSON, XML, YAML, JSON Path.
 * **modules/graphs.py** - render tabular hierarchical data with GraphViz graph.
 * **modules/charts.py** - render tabular hierarchical data with Plotly charts.
+
+## Actions
+
+To deploy the app as a Native App, run **`snowsql -c my_conn -f deploy.sql`**. Check that there are no errors (i.e. no text in red on screen). Switch to the Snowflake web UI and run/test/edit the app there.
+
+To share it with other accounts from your organization, deploy the APPLICATION PACKAGE in a private listing, and specifying other account names. The consumer can get the shared app from its Apps folder.
+
+The app as it is right now will load the **data/employees-raw.csv** into a private Snowflake table, with transformed data exposed through two secure views to the consumer. The generic recursive SQL query is also encapsulated in a secure stored procedure. All secure objects are created in the **script.sql** consumer script.

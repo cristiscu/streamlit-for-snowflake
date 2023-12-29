@@ -7,3 +7,13 @@ Simplified version of the [**Getting Started With Snowpark for Python and Stream
 * **Main.py** - multi-page Python entry code, to deploy as a Streamlit App in Snowflake.
 * **pages/*.py** - Python code for the multi-page Streamlit App.
 * **deploy.sql** - SQL script to deploy as a Streamlit App in Snowflake.
+
+## Actions
+
+If still available, get the free required dataset from the Snowflake Marketplace.
+
+Paste the content of **app-orig.py**, then **app-sels.py**, over the generated Python file of a manually created Streamlit App. Run and test the apps in the Snowflake web UI.
+
+Deploy the last multi-page version as a Streamlit App, running **`snowsql -c demo_conn -f deploy.sql`**. Check that there are no errors (i.e. no text in red on screen). Test the app in the Snowflake web UI.
+
+Remark that none of these version allows for local test Snowflake connectivity!

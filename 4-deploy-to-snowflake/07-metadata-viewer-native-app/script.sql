@@ -1,3 +1,4 @@
+-- consumer script, automatically triggered after an APPLICATION is created in the deploy script
 CREATE APPLICATION ROLE hierarchical_metadata_role;
 
 -- create versioned schema

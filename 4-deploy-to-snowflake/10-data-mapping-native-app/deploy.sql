@@ -1,4 +1,4 @@
--- run from current folder in a terminal window with: snowsql -c my_conn -f deploy.sql
+-- to be deployed as a Native App with: snowsql -c my_conn -f deploy.sql
 
 -- create app package
 DROP APPLICATION IF EXISTS ip2location_app CASCADE;

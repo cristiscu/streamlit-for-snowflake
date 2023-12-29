@@ -1,3 +1,4 @@
+-- automatically executed by the first step of our Streamlit web app
 CREATE OR REPLACE DATABASE IMDB;
 
 CREATE FILE FORMAT location_csv

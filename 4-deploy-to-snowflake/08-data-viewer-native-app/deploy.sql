@@ -1,3 +1,4 @@
+-- to be deployed as a Native App with: snowsql -c my_conn -f deploy.sql
 !set variable_substitution=true
 
 -- create app package

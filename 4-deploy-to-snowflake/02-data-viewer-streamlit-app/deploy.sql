@@ -1,3 +1,4 @@
+-- to be deployed as a Streamlit App with: snowsql -c demo_conn -f deploy.sql
 !set variable_substitution=true
 !define CRT_DIR=file://C:\Projects\streamlit-for-snowflake-test\data-viewer-snowflake
 
