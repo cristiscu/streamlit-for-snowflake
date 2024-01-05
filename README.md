@@ -1,8 +1,12 @@
 # Streamlit for Snowflake
 
-All demo code for my Udemy course [**"Streamlit for Snowflake Masterclass 2024 Hands-On!"**](https://www.udemy.com/course/streamlit-for-snowflake/?couponCode=BEST-PRICE). Refer to individual sections for local documentation.
+All demo code for my Udemy course [**Streamlit for Snowflake Masterclass 2024 Hands-On!**](https://www.udemy.com/course/streamlit-for-snowflake/?couponCode=BEST-PRICE). Refer to individual sections for local documentation.
 
-![Udemy Course](spool/udemy-course.png)
+[![Udemy Course](spool/udemy-course.png)](https://www.udemy.com/course/streamlit-for-snowflake/?couponCode=BEST-PRICE)
+
+## My Promo Video
+
+[![Watch Here](spool/youtube-promo.png)](https://www.youtube.com/watch?v=sLf70UrbIh4)
 
 ## (1) Testing Local Streamlit Web Apps
 
@@ -39,7 +43,3 @@ We’ll focus on the two major brand new and revolutionary frameworks in Snowfla
 * **Snowflake Native Apps** — shared with other Snowflake accounts.
 
 ![Deploying Streamlit Apps to Snowflake](spool/streamlit-4.png)
-
-## My Promo Video
-
-[Watch Here](https://www.youtube.com/watch?v=sLf70UrbIh4)
